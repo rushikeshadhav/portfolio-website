@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+:root {
+    --grey: #636c79;
+    --light-green: #8bb7a2;
+    --black: #10181d;
+    --light-black: #282f34;
+}
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background: #191923;
+    color: #fff;
+}
+
+.logo {
+    height: 40px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.line-height-1 {
+    line-height: 1.2;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    /* margin-top: 50px; */
+}
+
+.light-heading {
+    font-style: 18px;
+    color: #8c8c8e;
+}
+
+.horizontal-line {
+    height: 1px;
+    width: 100%;
+    background: #8c8c8e;
+}
+
+.height-100 {
+    height: 100px;
+}
+
+.height-1000vh {
+    height: 100vh;
+}
+
+.width-1000 {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.width-590 {
+    width: 590px;
+}
+
+.width-440 {
+    width: 440px;
+}
+
+.width-half {
+    width: 50%;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mrl-60 {
+    margin: 40px 60px;
+}
+
+.margin-x-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-desc {
+    margin-top: 20px;
+    color: #bcc0c5;
+    line-height: 2;
+}
+
+.btn {
+    width: 120px;
+    padding: 5px 10px;
+    border: none;
+    background: #ffb400;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.big-heading {
+    font-size: 50px;
+}
+
+.text-decoration {
+    /* text-decoration: none; */
+    color: #fff;
+}
+
+/* style  */
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background: #24242f;
+    padding: 20px 30px;
+}
+
+.list {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    font-size: 15px;
+    list-style: none;
+}
+
+.list li {
+    margin: 5px 0;
+}
+
+.list i {
+    color: #ffb400;
+    margin-right: 8px;
+}
+
+.photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.country-row {
+    height: 100px;
+    /* background: #20202a; */
+}
+
+.second-container {
+    margin: 40px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects-container {
+    width: 100%;
+    height: 700px;
+    /* background: yellow; */
+}
+
+.project {
+    position: relative;
+    height: 200px;
+    /* width: 150px; */
+    background-image: url("https://user-images.githubusercontent.com/74168885/181476728-1494b799-9528-43dc-8789-c7015b272562.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px;
+}
+
+.btn-container {
+    position: absolute;
+    top: 90%;
+    /* left: 5%; */
+    width: 100%;
+    /* background: red; */
+    transform: translate(0%, -50%);
+    cursor: pointer;
+}
+
+.project-btn {
+    border-radius: 3px;
+    color: #fff;
+    background: #20202a;
+}
+
+.hero {
+    background-image: url("https://bslthemes.com/arter/wp-content/uploads/2020/09/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1000px;
+    height: 310px;
+    /* padding: 40px; */
+}
+
+.yellow-text {
+    color: #ffb400;
+}
+
+/* test  */
+
+.wrapper{
+    width: 100%;
+}
+.container{
+    width: 100%;
+} 
+
+.container *{
+    font-family: "Poppins",sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+
+    border: 2px solid #ffb400;
+
+    border-radius: 20px;
+
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #ffb400;
+
+
+}
+
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+
+#javascript-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 42%;
+    }
+}
+
+/* test  */
+
+/* typing animation  */
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    font-size: 15px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+
+  .typewriter i {
+    color: #ffb400;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
