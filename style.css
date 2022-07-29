@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 :root {
     --grey: #636c79;
     --light-green: #8bb7a2;
@@ -13,6 +14,7 @@
 }
 
 body {
+    position: relative;
     background: #191923;
     color: #fff;
 }
@@ -93,11 +95,15 @@ body {
     padding-top: 80px;
 }
 
+.mt-50 {
+    margin-top: 50px;
+}
+
 .mt-40 {
     margin-top: 40px;
 }
 
-.mt-30{
+.mt-30 {
     margin-top: 30px;
 }
 
@@ -133,6 +139,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 .main-desc {
     margin-top: 20px;
     color: #bcc0c5;
@@ -144,6 +151,7 @@ body {
     padding: 5px 10px;
     border: none;
     background: #ffb400;
+    color: #000;
     font-weight: 500;
     cursor: pointer;
 }
@@ -169,14 +177,157 @@ body {
     color: #fff;
 }
 
+.block {
+    display: block;
+}
+
+/* test  */
+
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.container * {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bar {
+    position: relative;
+
+    border: 2px solid #ffb400;
+
+    border-radius: 20px;
+
+}
+
+.bar div {
+    position: relative;
+    width: 0;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #ffb400;
+
+
+}
+
+#html-bar {
+    animation: html-fill 2s forwards;
+}
+
+@keyframes html-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+#css-bar {
+    animation: css-fill 2s forwards;
+}
+
+@keyframes css-fill {
+    100% {
+        width: 75%;
+    }
+}
+
+#javascript-bar {
+    animation: js-fill 2s forwards;
+}
+
+@keyframes js-fill {
+    100% {
+        width: 42%;
+    }
+}
+
+/* test  */
+
+/* typing animation  */
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    font-size: 15px;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+.typewriter i {
+    color: #ffb400;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange
+    }
+}
+
+
 /* style  */
 
 .left-container {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 270px;
     background: #24242f;
     padding: 20px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.middle-container {
+    position: absolute;
+    top: 0;
+    left: 370px;
+    overflow-y: auto;
+    height: 100vh;
 }
 
 .list {
@@ -212,32 +363,75 @@ body {
     margin: 40px;
 }
 
-.projects {
+.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .projects-container {
     width: 100%;
-    height: 700px;
+    height: 1460px;
     /* background: yellow; */
 }
 
-.project {
+.card {
     position: relative;
-    height: 200px;
+    height: 260px;
     /* width: 150px; */
-    background-image: url("https://user-images.githubusercontent.com/74168885/181476728-1494b799-9528-43dc-8789-c7015b272562.png");
+    background: #24242f;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     margin: 10px;
 }
 
+.project-1 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181476728-1494b799-9528-43dc-8789-c7015b272562.png");
+}
+
+.project-2 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181796961-24e64f79-c0ca-46c8-bd6a-393f5877c915.png");
+}
+
+.project-3 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181797976-933bc952-1926-4897-85c9-2898d5458e88.png");
+}
+
+.project-4 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181799222-fb37fb41-57d2-4e21-9ef5-7451feeaf1bd.png");
+}
+.project-5 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181799714-597fd99d-a648-44a9-b4ae-d97e4c61034e.png");
+}
+.project-6 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181806325-02304473-a363-47d9-a277-4066de3d77d9.png");
+}
+.project-7 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181814776-cf17d5c2-a607-4c43-9707-2d6cc2e10ba1.png");
+}
+.project-8 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181815292-6f9b4630-e3d0-42ad-916b-32af38813a78.png");
+}
+.project-9 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181815643-87cca174-5c21-48fc-a6ee-98e49985fb59.png");
+}
+.project-10 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181816202-ca631143-733e-4bcb-9822-43b544df7d89.png");
+}
+.project-11 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181816814-79dd0555-342d-4fb9-a849-a6fa73cbe592.png");
+}
+.project-12 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181823403-cf2bae87-753f-498d-a09a-c75a60c8682b.png");
+}
+.project-13 {
+    background-image: url("https://user-images.githubusercontent.com/74168885/181824456-28a06013-db26-48d8-8656-df9ca2d3c880.png");
+}
+
 .btn-container {
     position: absolute;
     top: 90%;
-    /* left: 5%; */
+    left: 3%;
     width: 100%;
     /* background: red; */
     transform: translate(0%, -50%);
@@ -247,7 +441,10 @@ body {
 .project-btn {
     border-radius: 3px;
     color: #fff;
-    background: #20202a;
+    padding: 7px 15px;
+    background: #191923;
+    border: none;
+    cursor: pointer;
 }
 
 .hero {
@@ -264,104 +461,61 @@ body {
     color: #ffb400;
 }
 
-/* test  */
-
-.wrapper{
+.services-container {
     width: 100%;
-}
-.container{
-    width: 100%;
-} 
-
-.container *{
-    font-family: "Poppins",sans-serif;
-    color: #fff;
-    font-weight: 500;
+    height: 400px;
 }
 
-.details{
-    width: 100%;
-    display: flex;  
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-.bar{
-    position: relative;
-
-    border: 2px solid #ffb400;
-
-    border-radius: 20px;
-
-}
-.bar div{
-    position: relative;
-    width: 0;
-    height: 3px;
-    border-radius: 10px;
-    background-color: #ffb400;
-
-
+.service {
+    width: 300px;
+    height: 320px;
+    padding: 0 20px;
+    background: #24242f;
 }
 
-#html-bar{
-    animation: html-fill 2s forwards;
-}
-@keyframes html-fill{
-    100%{
-        width: 90%;
-    }
-}
-
-#css-bar{
-    animation: css-fill 2s forwards;
-}
-@keyframes css-fill{
-    100%{
-        width: 75%;
-    }
-}
-
-#javascript-bar{
-    animation: js-fill 2s forwards;
-}
-@keyframes js-fill {
-    100%{
-        width: 42%;
-    }
-}
-
-/* test  */
-
-/* typing animation  */
-
-
-/* DEMO-SPECIFIC STYLES */
-.typewriter h1 {
-    color: #fff;
-    font-family: monospace;
-    font-size: 15px;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(30, end),
-      blink-caret .5s step-end infinite;
-  }
-
-  .typewriter i {
+.learn-more-a {
     color: #ffb400;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange }
-  }
+    text-decoration: none;
+}
+
+.contact {
+    width: 100%;
+    background: #191923;
+}
+
+.form {
+    width: 500px;
+    height: 600px;
+    padding: 30px;
+    background: #24242f;
+}
+
+form .message {
+    height: 200px;
+}
+
+form input {
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+.country-row {
+    background: #24242f;
+}
+
+.work-container {
+    width: 100%;
+    height: 300px;
+}
+
+.work {
+    background: #24242f;
+    height: 300px;
+}
+
+.left-content {
+    width: 550px;
+}
+
