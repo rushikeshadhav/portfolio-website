@@ -2,17 +2,11 @@
 <a href="https://www.instagram.com/rushikeshadhav/">
   <img align="left" alt="Rushikesh's Instagram" width="22px" src="https://raw.githubusercontent.com/hussainweb/hussainweb/main/icons/instagram.png" />
 </a>
-<!-- <a href="#">
-  <img align="left" alt="Rushikesh's Discord" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/discord.svg" />
-</a> -->
-<!-- <a href="https://twitter.com/abhisheknaiidu">
-  <img align="left" alt="Abhishek Naidu | Twitter" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
-</a> -->
 <a href="https://www.linkedin.com/in/rushikeshadhav/">
   <img align="left" alt="Rushikesh's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
 </a>
 
-![](https://visitor-badge.glitch.me/badge?page_id=abhisheknaiidu.abhisheknaiidu)
+![](https://visitor-badge.glitch.me/badge?page_id=rushikeshadhav.rushikeshadhav)
 
 <br />
 
@@ -47,13 +41,8 @@ HTML       5 hrs 52 mins   █████████████████�
 CSS        5 hrs 52 mins   ████████████████████████░   95.42 %
 ```
 
-<!--END_SECTION:waka-->
 
-<!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
-
-<a href="https://www.buymeacoffee.com/abhisheknaiidu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a> -->
-
-🚧 **my todoist stats:**
+🚧 **my todolist stats:**
 <!-- TODO-IST:START -->
 🏆  Done with the portfolio           
 🌸  Completed 3 tasks today           
